@@ -1,0 +1,1251 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alteryx_challenge_data.xlsx
+Query=`Christmas Cookies$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="recipe_name" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="V_String" />
+            <Field name="butter" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="sugar" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="flour" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="sprinkles" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="chocolate" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="eggs" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="quantity" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F9" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F10" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F11" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F12" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F13" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F14" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F15" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F16" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F17" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F18" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F19" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F20" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F21" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F22" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F23" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F24" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F25" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+            <Field name="F26" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Cookies$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="recipe_name" selected="True" size="30" />
+            <SelectField field="butter" selected="True" type="Int16" size="2" />
+            <SelectField field="sugar" selected="True" type="Int16" size="2" />
+            <SelectField field="flour" selected="True" type="Byte" size="1" />
+            <SelectField field="sprinkles" selected="True" type="Byte" size="1" />
+            <SelectField field="chocolate" selected="True" type="Byte" size="1" />
+            <SelectField field="eggs" selected="True" type="Byte" size="1" />
+            <SelectField field="quantity" selected="True" type="Byte" size="1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="1000/[butter]&#xA;" field="Rounds_butter" size="2" type="Int16" enabled="true" />
+            <FormulaField expression="1000/[sugar]" field="Rounds_sugar" size="2" type="Int16" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Rounds_butter = 1000/[butter]
+
+Rounds_sugar = 1000/[sugar]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="126" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"recipe_name","butter","sugar","flour","sprinkles","chocolate","eggs","quantity","F9","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","F23","F24","F25","F26"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="426" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Rounds_butter] &lt; [Rounds_sugar] THEN&#xA;[Rounds_butter]*[quantity] ELSE&#xA;[Rounds_sugar]*[quantity] ENDIF&#xA;" field="No. of cookies" size="2" type="Int16" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>No. of cookies = IF [Rounds_butter] &lt; [Rounds_sugar] THEN
+[Rounds_butter]*[quant...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="558" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="No. of cookies" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>No. of cookies - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="666" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="recipe_name" selected="True" rename="Answer" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bipla\AppData\Local\Temp\Alteryx\Engine_6644_4c9333bd5cfeb74ab937927bafac3fb5_\Engine_6644_183ac6ed841c734e882bf0609d6808cd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alteryx_challenge_data.xlsx
+Query=`Christmas Music$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="key" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="V_String" />
+            <Field name="loudness" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="mode" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="V_String" />
+            <Field name="key_mode" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="V_String" />
+            <Field name="track_name" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="V_String" />
+            <Field name="artist_name" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="V_String" />
+            <Field name="F7" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F8" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F9" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F10" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F11" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F12" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F13" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F14" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F15" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F16" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F17" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F18" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F19" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F20" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F21" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F22" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F23" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F24" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F25" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+            <Field name="F26" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Music$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="key" selected="True" type="String" size="16384" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="114" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"key","loudness","mode","key_mode","track_name","artist_name","F7","F8","F9","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","F23","F24","F25","F26"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="330" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[mode] = "minor" OR
+Contains([key_mode], "F# major") OR
+Contains([artist_name], "Dean Martin") AND
+[loudness] &lt;= -9</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[mode] = "minor" OR
+Contains([key_mode], "F# major") OR
+Contains([artist_name], ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="462" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="loudness" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>loudness - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="570" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Last</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Last 1 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="678" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="track_name" selected="True" rename="Answer" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bipla\AppData\Local\Temp\Alteryx\Engine_6644_4c9333bd5cfeb74ab937927bafac3fb5_\Engine_6644_348a7f370125ad4d96c7eee236aca9e0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alteryx_challenge_data.xlsx
+Query=`Christmas Movies$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Title" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="V_String" />
+            <Field name="Year" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="Rating" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="V_String" />
+            <Field name="IMBD Rating" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="Release Type" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="V_String" />
+            <Field name="Genre" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="V_String" />
+            <Field name="Run time" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F8" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F9" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F10" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F11" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F12" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F13" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F14" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F15" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F16" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F17" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F18" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F19" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F20" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F21" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F22" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F23" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F24" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F25" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+            <Field name="F26" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Christmas Movies$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings>
+        <Position x="114" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"Title","Year","Rating","IMBD Rating","Release Type","Genre","Run time","F8","F9","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","F23","F24","F25","F26"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([Genre],&quot;Romantic comedy&quot;, &quot;Romantic Comedy&quot;)&#xA;" field="Genre" size="255" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Genre = Replace([Genre],"Romantic comedy", "Romantic Comedy")
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="318" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Release Type]= "Theater Release" AND
+[Year]&gt;= 1980 and [Year] &lt;= 1999 AND
+!Contains([Genre], "Animated")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Release Type]= "Theater Release" AND
+[Year]&gt;= 1980 and [Year] &lt;= 1999 AND
+!Cont...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="438" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Year" order="Ascending" />
+            <Field field="Rating" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Ascending
+Rating - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="570" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>100</N>
+          <GroupFields orderChanged="False">
+            <Field name="Year" />
+            <Field name="Rating" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 100 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="690" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Genre" order="Ascending" />
+            <Field field="Run time" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Genre - Ascending
+Run time - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="810" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Genre</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-05-15 22:36:07</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Comedy</Operand>
+              <StartDate>2024-05-15 22:36:07</StartDate>
+              <EndDate>2024-05-15 22:36:07</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Genre] = "Comedy"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="918" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False">
+            <Field name="Rating" />
+            <Field name="Run time" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1218" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bipla\AppData\Local\Temp\Alteryx\Engine_6644_4c9333bd5cfeb74ab937927bafac3fb5_\Engine_6644_2c551c0721edd64b8f8314a3aabcabab~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1122" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Title" selected="True" rename="Answer" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1254" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1302" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bipla\AppData\Local\Temp\Alteryx\Engine_6644_4c9333bd5cfeb74ab937927bafac3fb5_\Engine_6644_604a3af7f558db4e8d5371f49967a0af~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1158" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alteryx_challenge_data.xlsx
+Query=`Lookup Table$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="answer" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="V_String" />
+            <Field name="code" size="255" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="V_String" />
+            <Field name="F3" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F4" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F5" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F6" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F7" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F8" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F9" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F10" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F11" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F12" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F13" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F14" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F15" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F16" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F17" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F18" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F19" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F20" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F21" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F22" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F23" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F24" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F25" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+            <Field name="F26" source="File: D:\Journey of Data Science\Projects\Alteryx Project\Alteryx_challenge_data.xlsx|||`Lookup Table$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1230" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bipla\AppData\Local\Temp\Alteryx\Engine_6644_4c9333bd5cfeb74ab937927bafac3fb5_\Engine_6644_3bb655f0bc191a4180b4b92a29297d5e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1446" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Answer</FieldFind>
+          <FieldSearch>answer</FieldSearch>
+          <ReplaceFoundField>code</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Replace</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="answer" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1482" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bipla\AppData\Local\Temp\Alteryx\Engine_6644_4c9333bd5cfeb74ab937927bafac3fb5_\Engine_6644_acbfaf44a99c1c4fbd06f12b6e8c062d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1554" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Answer" action="Concat" rename="Concat_Answer">
+              <Concat_Start />
+              <Separator>,</Separator>
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings>
+        <Position x="1650" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Concat_Answer"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1746" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;http://christmas_treasure.key/&quot;+[Concat_Answer]" field="Treasure Box Key" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Treasure Box Key = "http://christmas_treasure.key/"+[Concat_Answer]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1854" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bipla\AppData\Local\Temp\Alteryx\Engine_6644_4c9333bd5cfeb74ab937927bafac3fb5_\Engine_6644_376486dd2aa94d4483d978cbf6e5cc18~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1026" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output26" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output26" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="42" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output26" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx_Workflow_christmas_party</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6a698209-80ee-4fab-bd68-f6e7d702765b" />
+      <Telemetry>
+        <PreviousWorkflowId value="6922b463-b0e0-41b6-a6f7-905ec3934fee" />
+        <OriginWorkflowId value="6922b463-b0e0-41b6-a6f7-905ec3934fee" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
